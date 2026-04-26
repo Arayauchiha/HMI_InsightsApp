@@ -296,7 +296,7 @@ struct StabilityStackedAreaChart: View {
 
                 Path { path in
                     path.move(to: CGPoint(x: xPos, y: 0))
-                    path.addLine(to: CGPoint(x: xPos, y: geo.size.height))
+                    path.addLine(to: CGPoint(x: xPos, y: geo.size.height - 22))
                 }
                 .stroke(Color.black.opacity(0.6), style: StrokeStyle(lineWidth: 2, dash: [4, 3]))
 
